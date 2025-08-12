@@ -73,4 +73,3 @@ English (en), Tamil (ta), Hindi (hi), French (fr), Telugu (te), Punjabi (pa), Sp
 
 - Internet connection is needed for Wikipedia, Spotify, translation, and trivia features.
 
-  This project is licensed under the [MIT License](LICENSE).
