@@ -65,11 +65,13 @@ Any general question → Searches Wikipedia for the answer.
 
 English (en), Tamil (ta), Hindi (hi), French (fr), Telugu (te), Punjabi (pa), Spanish (es), Arabic (ar), Korean (ko), Marathi (mr), Bengali (bn), Portuguese (pt), Turkish (tr), Chinese Simplified (zh-CN), Urdu (ur), Russian (ru), Japanese (ja), German (de), Danish (da), Norwegian (no), Vietnamese (vi)
 
-# Model demo:
-
-https://github.com/Rkirthi1234/SmartBot-VirtualAssistant/blob/main/smartbot%20demo.mp4
+# Result :
 
 <img width="1280" height="724" alt="image" src="https://github.com/user-attachments/assets/cad8c914-c84e-466f-8bd0-f35ccf36dfcc" />
+
+# Demo video:
+
+https://github.com/Rkirthi1234/SmartBot-VirtualAssistant/blob/main/smartbot%20demo.mp4
 
 
 # Notes:
