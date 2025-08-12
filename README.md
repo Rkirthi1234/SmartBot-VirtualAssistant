@@ -67,7 +67,7 @@ English (en), Tamil (ta), Hindi (hi), French (fr), Telugu (te), Punjabi (pa), Sp
 
 # Result :
 
-<img width="1280" height="724" alt="image" src="https://github.com/user-attachments/assets/cad8c914-c84e-466f-8bd0-f35ccf36dfcc" />
+<img width="1280" height="724" alt="image" src="https://github.com/user-attachments/assets/754ff72c-902a-44ce-a861-72764b630722" />
 
 # Demo video:
 
