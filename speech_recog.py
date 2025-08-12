@@ -17,5 +17,4 @@ def recognize_input():
             print("Could not understand the audio.")
         except sr.RequestError as e:
             print(f"Could not request results: {e}")
-    
     return input("User (Text): ")

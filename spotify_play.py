@@ -6,7 +6,9 @@ import webbrowser
 client_id = "98cefb74f01e44ca9c80a8bf4eb7c0d2"
 client_secret = "1579e41852b84a968c363cd08d103b81"
 
-sp = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials(client_id, client_secret))
+# Authenticate with the Spotify API
+client_credentials_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
+sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
 def search_and_play(song_name):
     results = sp.search(q=song_name, limit=1, type='track')
@@ -23,6 +25,3 @@ def search_and_play(song_name):
     else:
         print(f"Sorry, couldn't find the song '{song_name}'.")
 
-# Get user input and search for the song
-song_name = input("Enter the song name: ")
-search_and_play(song_name)

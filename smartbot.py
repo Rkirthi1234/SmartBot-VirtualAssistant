@@ -43,20 +43,6 @@ def speak(text):
     engine.say(text)
     engine.runAndWait()
 
-def analyze_sentiment(text):
-    # Perform sentiment analysis using TextBlob
-    blob = TextBlob(text)
-    sentiment = blob.sentiment.polarity  # Get the polarity score (-1 to 1)
-    
-    # Determine sentiment category
-    if sentiment > 0:
-        return "positive"
-    elif sentiment < 0:
-        return "negative"
-    else:
-        return "neutral"
-
-
 # Function to recognize speech input
 def recognize_input():
     with sr.Microphone() as source:
@@ -243,17 +229,6 @@ while True:
     if not response:
         response = search_wikipedia(user_input_normalized)
 
-    # If Wikipedia search fails, use sentiment analysis as a fallback
-    if not response or "No page found" in response or "Ambiguous query" in response:
-        sentiment = analyze_sentiment(user_input)
-        print(f"Sentiment: {sentiment}")
-
-        if sentiment == "positive":
-            response = "It seems you're in a great mood! How can I assist you today?"
-        elif sentiment == "negative":
-            response = "I'm sorry you're feeling down. How can I help to make things better?"
-        else:
-            response = "I see you're feeling neutral. What can I do for you?"
 
     # Handling additional chatbot features
     if user_input_normalized == "schedule notification":
