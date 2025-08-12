@@ -19,8 +19,6 @@ From answering questions via Wikipedia, playing trivia games, translating langua
 
 - Language Translator – Translates sentences into 20+ languages.
 
-- Sentiment Analysis – Detects whether your message is positive, negative, or neutral.
-
 - Custom Conversations – Responds to predefined conversational phrases for a personal touch.
 
 # Installation:
@@ -28,6 +26,7 @@ From answering questions via Wikipedia, playing trivia games, translating langua
 - Clone the Repository
   
   git clone https://github.com/your-username/smartbot.git
+  
   cd smartbot
   
 - Install Dependencies
@@ -43,3 +42,35 @@ From answering questions via Wikipedia, playing trivia games, translating langua
   Generate your Client ID and Client Secret.
 
   Replace them in the code where indicated in smartbot.py and spotify_play.py.
+
+# Usage:
+
+Run the chatbot:
+
+python main.py
+
+# Example Commands:
+
+play a game → Starts the trivia quiz.
+
+play a song → Plays a song by asking for artist and track name.
+
+schedule notification → Schedules a WhatsApp message at a given time.
+
+translator → Translates text into a target language.
+
+Any general question → Searches Wikipedia for the answer.
+
+# Supported Translation Languages:
+
+English (en), Tamil (ta), Hindi (hi), French (fr), Telugu (te), Punjabi (pa), Spanish (es), Arabic (ar), Korean (ko), Marathi (mr), Bengali (bn), Portuguese (pt), Turkish (tr), Chinese Simplified (zh-CN), Urdu (ur), Russian (ru), Japanese (ja), German (de), Danish (da), Norwegian (no), Vietnamese (vi)
+
+# Notes:
+
+- Make sure you are logged in to WhatsApp Web before scheduling messages.
+
+- An active microphone is required for speech recognition.
+
+- Internet connection is needed for Wikipedia, Spotify, translation, and trivia features.
+
+  This project is licensed under the [MIT License](LICENSE).
